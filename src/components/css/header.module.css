@@ -1,0 +1,81 @@
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.title {
+  font-size: 27px;
+  font-weight: bolder;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.titleContainer {
+  text-align: center;
+  margin-top: -270px;
+  color: white;
+}
+
+.input {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  width: 28%;
+  outline: none;
+  /* margin-top: 10px; */
+  font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+::placeholder {
+  opacity: 0.8;
+  font-weight: none;
+}
+
+.button {
+  border: none;
+  margin-left: -2.7em;
+  background-color: black;
+  color: white;
+  border-top-right-radius: 12px;
+  padding: 14px;
+  position: relative;
+  border-bottom-right-radius: 12px;
+  height: 40px;
+  text-align: center;
+}
+
+.map {
+  margin-top: 200px;
+  position: relative;
+}
+
+.error {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media (max-width: 884px) {
+  .titleContainer {
+    margin-top: -180px;
+  }
+}
+
+@media (max-width: 768px) {
+  .titleContainer {
+    /* width: 70%; */
+    margin-top: -5em;
+  }
+
+  .image {
+    height: 300px;
+  }
+
+  .titleContainer {
+    margin-bottom: 0px;
+  }
+
+  .title {
+    margin-top: -270px;
+  }
+}
